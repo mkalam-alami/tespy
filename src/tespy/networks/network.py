@@ -2801,7 +2801,7 @@ class Network:
                 self.singularity_msg += (
                     "The following variables of your problem are not "
                     "in connection with any equation: "
-                    f"{', '.join([str(v) for v in variables])}{_nl}"
+                    f"{', '.join([str(variables[v]) for v in variables])}{_nl}"
                 )
             if len(all_zero_rows) > 0:
                 equations = self._get_equations_by_number(all_zero_rows)

@@ -11,6 +11,8 @@ Other changes
   by :code:`1e-6 K` to avoid boundary issues) and calculates the physical
   exergy with respect to that temperature without exergy splitting
   (`PR #828 <https://github.com/oemof/tespy/pull/828>`__).
+- Errors: When tracing linear dependency issues, added the connection name of
+  disconnected variables.
 
 Bug Fixes
 #########
@@ -19,3 +21,4 @@ Contributors
 ############
 - Francesco Witte (`@fwitte <https://github.com/fwitte>`__)
 - `@sertomas <https://github.com/sertomas>`__
+- Marwane Kalam-Alami `@mkalam-alami <https://github.com/mkalam-alami>`__
